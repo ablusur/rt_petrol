@@ -6,21 +6,22 @@ import { FaFacebookF,FaTwitter,FaLinkedin,FaInstagram } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <header className='bg-[#282828]'>
-    <div className='max-w-container mx-auto h-[50px] text-white'>
-        <div className="flex">  
-            <div className="w-[25%]">
-                 <div className="flex items-center">
-                   <MdEmail/><h3 font-osens>mail@yourcompany.com</h3>
+    <header className='bg-[#282828] py-6'>
+    <div className='max-w-container mx-auto text-white'>
+        <div className="lg:flex">  
+            <div className="w-full lg:w-[25%]">
+                 <div className="flex items-center lg:justify-start justify-center py-3 lg:py-0">
+                   <MdEmail className=''/>
+                   <h3 className='font-osens pl-2'>mail@yourcompany.com</h3>
                  </div>
             </div>
-            <div className="w-[25%]">
-                <div className="flex items-center">
-                  <IoCallOutline/><p>+896 120 5889 (Toll free)</p>
+            <div className="w-full lg:w-[25%]">
+                <div className="flex items-center lg:justify-start justify-center py-3 lg:py-0">
+                  <IoCallOutline/><p className='font-osens pl-2'>+896 120 5889 (Toll free)</p>
                 </div>
             </div>
-            <div className="w-[50%]">
-                <div className="flex justify-end">
+            <div className="w-full lg:w-[50%]">
+                <div className="flex lg:justify-end gap-4 justify-center">
                     <FaFacebookF/>
                     <FaTwitter/>
                     <FaLinkedin/>
