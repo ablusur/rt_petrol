@@ -7,11 +7,12 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        'osens':['Open Sans', 'sans-serif']
+        'osans':['Open Sans', 'sans-serif'],
+        'popps':['Poppins', 'sans-serif']
       },
       maxWidth:{
-        'container':"1320px"
-      },
+        'container':"1040px"
+      }
     },
   },
   plugins: [],
