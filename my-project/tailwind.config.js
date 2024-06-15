@@ -12,7 +12,10 @@ export default {
       },
       maxWidth:{
         'container':"1040px"
-      }
+      },
+      backgroundColor:{
+        mediumClr:"#6C6C6C",
+      },
     },
   },
   plugins: [],

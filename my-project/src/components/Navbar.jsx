@@ -18,7 +18,7 @@ const Navbar = () => {
             </div> 
         </div>
         <div className="">
-            <ul className= {`lg:flex lg:gap-x-10 lg:static py-6 text-center lg:py-0 ${show == true ? "bg-[green] absolute top-[265px] left-0 w-full duration-500 ease-in-out -z-10 ": "absolute -z-10 top-[-275px] left-0 w-full duration-500 ease-in-out"}`} >
+            <ul className= {`lg:flex lg:gap-x-10 lg:static py-6 text-center lg:py-0 ${show == true ? "bg-[green] absolute top-[265px] left-0 w-full duration-500 ease-in-out z-[999] ": "absolute -z-10 top-[-275px] left-0 w-full duration-500 ease-in-out"}`} >
                 <li className='font-popps font-semibold text-[#fff] text-[16px] py-2 lg:p-4 hover:text-[#222] duration-500 ease-in-out'>Home</li>
                 <li className='font-popps font-semibold text-[#fff] text-[16px] py-2 lg:p-4 hover:text-[#222] duration-500 ease-in-out'>About</li>
                 <li className='font-popps font-semibold text-[#fff] text-[16px] py-2 lg:p-4 hover:text-[#222] duration-500 ease-in-out'>Services</li>
